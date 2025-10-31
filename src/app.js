@@ -1,11 +1,23 @@
 import "bootstrap";
 import "./style.css";
 
+window.onload = function () {
+  let pronoun = ['the', 'our'];
+  let adj = ['great', 'big'];
+  let noun = ['planet', 'wolves'];
+  const domains = ['com', 'es', 'dev', 'io', 'net'];
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+  for (let p of pronoun) {
+    for (let a of adj) {
+      for (let n of noun) {
+        for(let d of domains){
+          // if (n.slice(-d.length) === d){
+          //   let cutNoun = n.slice(0)
+          // }
+              console.log(p + a + n + "." + d)
+        }
+      }
+    }
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
+  }
 };

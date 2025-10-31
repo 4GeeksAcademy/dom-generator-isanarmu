@@ -3,3 +3,11 @@
 body{
     background: white;
 }
+#url {
+    font-family: monospace;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center;
+    color: black;
+}

@@ -10,11 +10,8 @@ window.onload = function () {
   for (let p of pronoun) {
     for (let a of adj) {
       for (let n of noun) {
-        for(let d of domains){
-          // if (n.slice(-d.length) === d){
-          //   let cutNoun = n.slice(0)
-          // }
-              console.log(p + a + n + "." + d)
+        for (let d of domains) {
+          console.log(p + a + n + "." + d)
         }
       }
     }
